@@ -24,13 +24,15 @@
 
 ### Maps
 
+> tsc --init
+
 > npm install faker
 
 To link with JS
 
 > npm install @types/faker
 
-> npm install @types/googlemaps --save-dev
+> npm install @types/googlemaps --save-dev | npm i -D @types/google.maps
 
 > npm install dotenv
 
