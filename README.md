@@ -42,10 +42,4 @@ Live Demo
 
 # TODOs
 
-//TODO #10 create a map
-
-//TODO #7 create a class
-
-//TODO #3 create an interface.ts @poboisvert
-
-//TODO #2 get interface.ts done @poboisvert
+//TODO #1 Market GMaps
