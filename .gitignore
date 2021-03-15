@@ -5,6 +5,12 @@ __pycache__/
 
 # C extensions
 *.so
+.DS_Store
+maps/node_modules
+maps/package-lock.json
+
+jsonFetch/node_modules
+jsonFetch/package-lock.json
 
 # Distribution / packaging
 .Python
