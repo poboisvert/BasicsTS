@@ -1,23 +1,24 @@
+import { Sorter } from "./Sorter";
+
 class Node {
   next: Node | null = null;
+
   constructor(public data: number) {}
 }
 
-export class LinkedList {
+export class LinkedList extends Sorter {
   head: Node | null = null;
 
   add(data: number): void {
     const node = new Node(data);
 
-    // If Data
     if (!this.head) {
       this.head = node;
-      return; // :void can not return eg: return 123
+      return;
     }
-    // INIT list
+
     let tail = this.head;
     while (tail.next) {
-      // if no next the loop will end
       tail = tail.next;
     }
 
@@ -26,14 +27,11 @@ export class LinkedList {
 
   get length(): number {
     if (!this.head) {
-      return 0; // Empty list
+      return 0;
     }
 
-    // INIT
     let length = 1;
     let node = this.head;
-
-    // Loop Node
     while (node.next) {
       length++;
       node = node.next;
@@ -41,7 +39,7 @@ export class LinkedList {
 
     return length;
   }
-  //
+
   at(index: number): Node {
     if (!this.head) {
       throw new Error("Index out of bounds");

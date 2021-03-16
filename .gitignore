@@ -12,6 +12,9 @@ maps/package-lock.json
 jsonFetch/node_modules
 jsonFetch/package-lock.json
 
+sort/node_modules
+sort/package-lock.json
+
 # Distribution / packaging
 .Python
 build/
@@ -133,3 +136,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+node_modules

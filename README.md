@@ -40,6 +40,28 @@ Live Demo
 
 > parcel index.html
 
+### Sort
+
+> npm init -y
+
+> npm install nodemon concurrently
+
+> tsc --init
+
+```
+    "outDir": "./build",
+    "rootDir": "./src",
+```
+
+> tsc index.ts
+
+> tsc
+
+> tsc -w
+
+> npm start
+
 # TODOs
 
 //TODO #1 Market GMaps
+//TODO #4 Create sort
